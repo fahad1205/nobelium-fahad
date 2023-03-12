@@ -23,7 +23,7 @@ export function Component1(props){
     <fragment>
     <br></br>
     <br></br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;{props.button}
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<button>{props.button}</button>
      </fragment>
   )
   }
