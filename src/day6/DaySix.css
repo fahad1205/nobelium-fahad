@@ -1,0 +1,50 @@
+
+.wrapper{
+  background-color: rgb(48, 39, 44);
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  /* display: flex; */
+  gap: 30px;
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+  border: 2px solid red;
+  border-radius: 20px;
+  
+} */
+
+.header{
+  color: aliceblue;
+}
+
+
+.out{
+border-style: solid;
+border-color: azure;
+margin: center;
+}
+
+.delete{
+  color: red;
+  background-color: black;
+}
+
+.complete{
+  color: rgb(117, 5, 5);
+  background-color: blue;
+}
+
+input{
+  margin-left: 45px;
+
+}
+
+.add{
+  margin-left: 85px;
+
+}
+
+span{
+  margin-left: 105px;
+
+}

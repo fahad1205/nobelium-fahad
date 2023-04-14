@@ -15,6 +15,7 @@ export function CreateList(){
     setAdd([...add,list])
     setList("")
   }
+
 return(
 <Fragment>
 <p>Get value: To-Do list</p>
@@ -23,7 +24,7 @@ return(
 &nbsp;<button onClick={handleAdd}><strong>Add</strong></button>
 <ul>
   {
-    add.map(ls=> <li key={ls}>{ls}</li>)
+    add.map((ls,index)=> <li key={index}>{ls}</li>)
   }
 </ul>
 {/* <p>{add}</p> */}
@@ -40,6 +41,7 @@ const[num,setNum] = useState(0)
 
 function Add(){
   setNum(num + 1)
+  
 }
 function Substract(){
 setNum(num - 1)

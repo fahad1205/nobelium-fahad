@@ -1,0 +1,16 @@
+.list{
+  margin: auto;
+  border: red;
+  border-style: solid;
+  width: auto;
+  height: 50%;
+}
+
+
+.details{
+  margin: auto;
+  border: green;
+  border-style: solid;
+  width: auto;
+  height: 50%;
+}
