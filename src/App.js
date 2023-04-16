@@ -1,38 +1,21 @@
-
-// import logo from './logo.svg';
-// import './App.css';
-import {Fragment, useRef} from "react"
-import { TodoList } from "./day6/DaySix";
-// import { Browser } from "./Figma-css/browser";
-import { Scroller } from "./scroller/Scroller";
-import BillingForm from "./Form/Form";
-import { RecoilRoot } from "recoil";
-
-import { DataProvider } from "./AssignmentCon/DataProvider";
-import { List , Details } from "./AssignmentCon/AssignmentCom";
-
+import React, { Fragment } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import {HomePage , ContactPage} from './pages';
+import { Header } from './rootFiles/Header';
 
 function App() {
-  
+
   return (
     <Fragment>
-      
-
-      <DataProvider>
-      <div>
-        <div style={{ float: 'left', width: '50%' }}>
-          <List />
-        </div>
-        <div style={{ float: 'left', width: '50%' }}>
-          <Details />
-        </div>
-      </div>
-    </DataProvider>
-
-   
+    <Header/>
+      <Routes>
+       <Route path="/"  element = {<HomePage/>} /> 
+       <Route path="/contact" element = {<ContactPage/>} />
+      </Routes>
     </Fragment>
-    
   );
 }
+
+
 
 export default App;
