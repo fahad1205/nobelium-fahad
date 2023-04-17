@@ -9,8 +9,18 @@ export function Header() {
         <Link to="" >Home</Link>
       </div>
       <div>
-        <Link to="/contact" >Contact</Link>
+        <Link to="/notes" >Notes</Link>
       </div>
+      <div>
+        <Link to="/add" >Add Notes</Link>
+      </div>
+      <div>
+        <Link to="/edit" >Edit Notes</Link>
+      </div>
+      <div>
+        <Link to="/delete" >Delete Notes</Link>
+      </div>
+     
     </header>
   )
 }
